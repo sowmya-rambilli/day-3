@@ -57,7 +57,7 @@
 
 // function demo{
 //     console.log("hello");
-// }
+// }n
 // demo();
 
 // let x = a => console.log(a);
@@ -76,3 +76,30 @@
 
 // let y = (a,b) => a+b;
 // console.log(y(100,100));
+// higher order function and callback function.
+// function hof(a){
+//     return a;
+// }
+// let x = hof(function(){return "Callback function"});
+// console.log(x);
+
+// let y = hof(function(){return "Callback function"});
+// console.log(y());
+
+// let users = ["Bhanu","Sowmya","Karthik","shiny"];
+// console.log(users);
+// users.map(function(user){console.log(user)})
+
+// var a = 10;
+// let b = 45;
+// function x(){
+//     var user = "Sowmya";
+//     let company = "Google";
+//     const sal = 235672091;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     conosle.log(a , b);
+// }
+// x();
+ 
